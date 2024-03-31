@@ -11,13 +11,13 @@
 aur_helper="yay"
 ############ use : "Y" or "N"
 ###-Do you have any nvidia gpu in your system?
-nvidia="Y"
+nvidia="N"
 ###-Install GTK themes (required for Dark/Light function)?
-gtk_themes="Y"
+gtk_themes="N"
 ###-Do you want to configure Bluetooth?
 bluetooth="Y"
 ###-Do you want to install Thunar file manager?
-thunar="Y"
+thunar="N"
 ###-Install & configure SDDM log-in Manager plus (OPTIONAL) SDDM Theme?
 sddm="Y"
 ###-Install XDG-DESKTOP-PORTAL-HYPRLAND? (For proper Screen Share ie OBS)
@@ -27,7 +27,7 @@ zsh="Y"
 ###-Installing in a Asus ROG Laptops?
 rog="N"
 ###-Do you want to download pre-configured Hyprland dotfiles?
-dots="Y"
+dots="N"
 
 ### These are the sub-questions of the above choices
 ### Would you like to blacklist nouveau? (y/n)
@@ -36,13 +36,13 @@ blacklist_nouveau="Y"
 ### Would you like to try to remove other XDG-Desktop-Portal-Implementations? (y/n) 
 XDPH1="Y"
 ### SDDM is already installed. Would you like to manually install sddm-git to remove it? This requires manual intervention. (y/n)
-manual_install_sddm="N"
+manual_install_sddm="Y"
 ### OPTIONAL - Would you like to install SDDM themes? (y/n)
-install_sddm_theme="Y"
+install_sddm_theme="N"
 ### " This script will add your user to the 'input' group."
 ### " Please note that adding yourself to the 'input' group might be necessary for waybar keyboard-state functionality."
 input_group_choid="Y"
 ### OPTIONAL - Do you want to add Pokemon color scripts? (y/n): 
-pokemon_choice="Y"
+pokemon_choice="N"
 ### Do you want to upgrade to the latest version? (y/n) - This is for the dotfiles
-upgrade_choice="Y"
+upgrade_choice="N"
