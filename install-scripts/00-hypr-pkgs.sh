@@ -8,7 +8,24 @@
 
 # add packages wanted here
 Extra=(
-
+nemo
+mpd
+mpdris2
+jamesdsp-pipewire-bin
+zellij
+zathura-pdf-mupdf
+wpgtk
+tomato.c-git
+tgpt-bin
+ncmpcpp
+ripgrep
+npm
+python-pywalfox
+lutris
+wine
+qview
+gamemode
+foot
 )
 
 hypr_package=( 
@@ -21,7 +38,6 @@ imagemagick
 jq
 kitty
 kvantum
-nano  
 network-manager-applet 
 pamixer 
 pavucontrol
@@ -29,7 +45,7 @@ pipewire-alsa
 playerctl
 polkit-gnome
 python-requests
-python-pywal 
+pywal-16-colors 
 qt5ct
 qt6ct
 qt6-svg
@@ -37,7 +53,7 @@ rofi-lbonn-wayland-git
 slurp 
 swappy 
 swayidle 
-swaylock-effects-git
+hyprlock
 swaync 
 swww 
 waybar
@@ -55,14 +71,11 @@ brightnessctl
 btop
 cava
 eog
-gnome-system-monitor
-mousepad 
 mpv
 mpv-mpris 
 nvtop
 nwg-look-bin
 pacman-contrib
-vim
 yt-dlp
 )
 
@@ -70,10 +83,9 @@ fonts=(
 adobe-source-code-pro-fonts 
 noto-fonts-emoji
 otf-font-awesome 
-ttf-droid 
-ttf-fira-code
-ttf-jetbrains-mono 
-ttf-jetbrains-mono-nerd 
+ttf-iosevka-nerd
+ttf-space-mono-nerd
+ttf-sazanami
 )
 
 # List of packages to uninstall as it conflicts with swaync or causing swaync to not function properly
