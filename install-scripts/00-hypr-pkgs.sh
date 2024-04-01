@@ -26,6 +26,7 @@ wine
 qview
 gamemode
 foot
+starship
 )
 
 hypr_package=( 
