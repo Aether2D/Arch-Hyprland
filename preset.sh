@@ -31,7 +31,7 @@ dots="N"
 
 ### These are the sub-questions of the above choices
 ### Would you like to blacklist nouveau? (y/n)
-blacklist_nouveau="Y"
+blacklist_nouveau="N"
 ### XDG-desktop-portal-KDE & GNOME (if installed) should be manually disabled or removed! Script cant remove nor disable it.
 ### Would you like to try to remove other XDG-Desktop-Portal-Implementations? (y/n) 
 XDPH1="Y"
